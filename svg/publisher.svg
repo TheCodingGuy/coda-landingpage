@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Publishing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="SVG" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M44,58 L30.992,58 L30.992,19.837 L40.609,29.474 C41.387,30.253 42.648,30.253 43.425,29.474 C44.203,28.694 44.203,27.431 43.425,26.651 L30.408,13.607 C29.631,12.828 28.37,12.828 27.592,13.607 L14.575,26.651 C13.797,27.431 13.797,28.694 14.575,29.474 C15.353,30.253 16.614,30.253 17.392,29.474 L27.008,19.837 L27.008,58 L14,58 C6.268,58 0,51.732 0,44 L0,14 C0,6.268 6.268,0 14,0 L44,0 C51.732,0 58,6.268 58,14 L58,44 C58,51.732 51.732,58 44,58 L44,58 Z" id="Publishing" fill="#18C0C6"></path>
+    </g>
+</svg>

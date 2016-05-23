@@ -1,0 +1,496 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+
+@keyframes color_change {
+	0% { fill: #41B9D1; }
+	20% { fill: #9BFF1B; }
+	40% { fill: #F27E18; }
+	60% { fill: #FFD700; }
+	80% { fill: #FF0066; }
+	100% { fill: #41B9D1; }
+}
+
+@keyframes color_change_2 {
+	0% { fill: #127093; }
+	20% { fill: #FF0066; }
+	40% { fill: #FFD700; }
+	60% { fill: #F27E18; }
+	80% { fill: #9BFF1B; }
+	100% { fill: #127093; }
+}
+
+@-webkit-keyframes color_change {
+	0% { fill: #41B9D1; }
+	20% { fill: #9BFF1B; }
+	40% { fill: #F27E18; }
+	60% { fill: #FFD700; }
+	80% { fill: #FF0066; }
+	100% { fill: #41B9D1; }
+}
+
+@-webkit-keyframes color_change_2 {
+	0% { fill: #127093; }
+	20% { fill: #FF0066; }
+	40% { fill: #FFD700; }
+	60% { fill: #F27E18; }
+	80% { fill: #9BFF1B; }
+	100% { fill: #127093; }
+}
+
+#Path2 {
+	-webkit-animation: color_change 10s infinite alternate;
+	animation: color_change 10s infinite alternate;
+}
+
+#Path3 {
+	-webkit-animation: color_change_2 10s infinite alternate;
+	animation: color_change_2 10s infinite alternate;
+}
+
+/* Navbar */
+
+.navbar {
+	background: rgba(155,154,155,0.30);
+	border: 1px solid #979797;
+	height: 80px;
+}
+
+.navbar-toggle {
+	margin-top: 22px;
+}
+
+/* Rensa upp här! */
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.navbar-toggle.active #ib1 {
+	transform: translateY(6px) rotate(45deg);
+}
+
+.navbar-toggle.active #ib2 {
+	transform: translateX(-3px);
+	opacity: 0;
+}
+
+.navbar-toggle.active #ib3 {
+	transform: translateY(-6px) rotate(-45deg);
+}
+
+.icon-bar {
+	transition: 0.3s;
+}
+
+.in, .collapsing {
+	margin-top: 14px;
+	border-color: transparent !important;
+	background: rgba(155,154,155,0.50);
+	padding-bottom: 5px;
+}
+
+.in > ul > li, .collapsing > ul > li {
+	margin-bottom: 5px !important;
+}
+
+.navbar-right {
+	margin-top: 14px;
+}
+
+.navbar-right > li {
+	margin: 0px 20px;
+}
+
+.nav-a {
+	font-family: Arial;
+	font-size: 24px;
+	color: #4AB9E2 !important;
+	text-decoration: none;
+	position: relative;
+	transition: 0.4s;
+	text-align: center;
+}
+
+.nav-a:hover {
+	color: white !important;
+}
+
+.nav-a:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	border-bottom: 2px solid white;
+	transition: 0.4s;
+}
+
+.nav-a:hover:after {
+	width: 100%;
+}
+
+#buy-now {
+	border: 1px solid rgba(114,255,2,0.83);
+	border-radius: 10px;
+	font-family: 'Lato', Arial;
+	font-weight: bold;
+	font-size: 28px;
+	padding-bottom: 17px;
+	color: rgba(115,255,2,0.74) !important;
+	text-align: center;
+	transition: all .2s ease-in;
+}
+
+#buy-now:hover {
+	background-color: white;
+}
+
+#fp-nav > ul > li > a > span {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/* Section 1 */
+
+.background {
+	height: 100%;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+#coda-icon {
+	margin-top: 60px;
+	width: 190px;
+	height: 185px;
+}
+
+.cnt1-h2 {
+	font-family: Arial;
+	font-size: 36px;
+	color: #3883fd;
+	margin: 25px 50px 0px 50px;
+}
+
+.cnt1-a {
+	width: 200px;
+	margin-top: 30px;
+	color: rgba(52, 198, 253, 0.7);
+}
+
+#arrow {
+	transition: all .2s ease-in;
+}
+
+.cnt1-a > h1 {
+	margin-top: 0px;
+	transition: all .2s ease-in;
+}
+
+.cnt1-a:hover #arrow {
+	transform: translateY(10px);
+}
+
+.cnt1-a:hover #arrow path {
+	fill: #337ab7;
+	transition: all .2s ease-in;
+}
+
+.cnt1-a:hover h1 {
+	transform: translateY(-10px);
+}
+
+#sec1-bg {
+	background-image: url("../images/mountains_and_lake.jpg");
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+}
+
+/* Section 2 */
+
+.content {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	height: 90%;
+}
+
+#sec2-bg {
+	background-image: url("../images/portland_head_lightlighthouse.jpg");
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#features-h1 {
+	font-size: 52px;
+	color: #B8E986;
+	border-bottom: 2px solid #B8E986;
+	width: 65%;
+	padding-bottom: 35px;
+	margin-bottom: 150px;
+}
+
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent rgba(255, 255, 255, 0.6) !important;
+}
+
+.fp-controlArrow.fp-prev {
+	border-color: transparent rgba(255, 255, 255, 0.6) transparent transparent !important;
+}
+
+.fp-tableCell {
+	vertical-align: top;
+}
+
+#speed-h3, #speed-p {
+	color: rgba(255, 0, 102, 1);
+}
+
+#editor-h3, #editor-p {
+	color: rgba(243, 126, 24, 1);
+}
+
+#indexer-h3, #indexer-p {
+	color: rgba(255, 174, 0, 1);
+}
+
+#plugins-h3, #plugins-p {
+	color: rgba(133, 194, 0, 1);
+}
+
+#override-h3, #override-p {
+	color: rgba(33, 207, 161, 1);
+}
+
+#publisher-h3, #publisher-p {
+	color: rgba(24, 192, 197, 1);
+}
+
+#ftp-h3, #ftp-p {
+	color: rgba(51, 200, 253, 1);
+}
+
+#sync-h3, #sync-p {
+	color: rgba(65, 185, 209, 1);
+}
+
+/* Section 3 */
+
+#sec3-bg {
+	background-image: url("../images/amazing-sunrise-landscape.jpg");
+	filter: blur(15px);
+	-webkit-filter: blur(15px);
+}
+
+#section-3, #section-4 * {
+	text-align: center;
+}
+
+#sec3-h2 {
+	color: rgba(52, 198, 253, 0.75);
+	font-size: 56px;
+	border-bottom: 2px solid rgba(52, 198, 253, 0.75);
+	width: 65%;
+	padding-bottom: 35px;
+	margin-bottom: 40px;
+}
+
+.sec3-p {
+	color: rgba(0, 217, 255, 1);
+	font-size: 18px;
+}
+
+section#content2 > .fp-slides {
+	height: 100%;
+}
+
+/* Section 4 */
+
+#sec4-bg {
+	background: url("../images/lighthouse-on-coast.jpg");
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	background-size: cover;
+}
+
+#sec4-h2 {
+	color: rgba(249, 142, 76, 0.9);
+	font-size: 56px;
+	border-bottom: 2px solid rgba(249, 142, 76, 0.9);
+	width: 65%;
+	padding-bottom: 35px;
+	margin-bottom: 40px;
+}
+
+#sli3-p {
+	margin-top: 30px;
+}
+
+section#sec4-content p {
+	color: rgba(0, 196, 255, 0.9);
+}
+
+section#sec4-content h3 {
+	color: rgba(249, 142, 76, 0.75);
+}
+
+/* Media queries */
+
+/* Small devices (iPhone 4/5/SE and below) */
+
+@media (max-width: 374px) {
+	#coda-icon {
+		margin-top: 0px;
+		width: 30%;
+		height: 30%;
+	}
+	.cnt1-h2 {
+		margin: 0px 0px;
+		font-size: 18px;
+	}
+	.fp-tableCell {
+		vertical-align: middle;
+	}
+	#features-h1 {
+		display: none;
+	}
+	.info-img {
+		width: 20%;
+	}
+	.info-h3 {
+		font-size: 16px;
+	}
+	.info-p {
+		font-size: 10px;
+	}
+	#sec3-h2 {
+		font-size: 2em;
+		margin-bottom: 10px;
+		padding-bottom: 15px;
+		width: 90%;
+		margin-top: -50px;
+	}
+	.sec3-p {
+		font-size: 12px;
+	}
+	#P1 > .fp-tableCell, #P2 > .fp-tableCell {
+		font-size: 10px;
+		padding-top: 0px;
+	}	
+	section#sec4-content h3 {
+		font-size: 12px;
+	}
+	.sec4-faq > p {
+		font-size: 12px;
+	} 
+}
+
+/* Medium devices (iPhone 6 and above) */
+
+@media (min-width: 375px) and (max-width: 767px) {
+	#coda-icon {
+		margin-top: 0px;
+		width: 40%;
+		height: 40%;
+	}
+	.cnt1-h2 {
+		font-size: 22px;
+		margin: 0px 5px;
+	}
+	.cnt1-a {
+		margin-top: 30px;
+	}
+	#features-h1 {
+		display: none;
+	}
+	#sec3-h2 {
+		font-size: 2.5em;
+		margin-bottom: 15px;
+		padding-bottom: 20px;
+		width: 90%;
+	}
+	#P1 > .fp-tableCell, #P2 > .fp-tableCell {
+		font-size: 15px;
+		padding-top: 0px;
+	}
+	.sec3-p {
+		font-size: 14px;
+	}
+	.sec4-faq > p {
+		font-size: 14px;
+	} 
+	.sec4-faq > h3 {
+		font-size: 18px;
+	}
+}
+
+/* All phones */
+
+@media (max-width: 767px) {
+	#sec2-cont {
+		top: 20px;
+	}
+	#P1, #P2 {
+		padding: 0px 0px;
+	}
+	div[class*="col-"] {
+		
+	}
+	#sec3-h2 {
+		margin-top: -60px;
+	}
+	#sec4-h2 {
+		margin-bottom: 5px;
+		padding-bottom: 5px;
+		font-size: 30px;
+		margin-top: -60px;
+	}
+	section#sec4-content h3 {
+		margin-top: 5px;
+	}
+	#sec4-bg {
+		height: 108%;
+	}
+}
+
+/* Everything bigger than a phone */
+
+@media (min-width: 768px) {
+	
+}
+
+/* Tablets and small laptops/monitors */
+
+@media (min-width: 768px) and (max-width: 1366px) {
+	#section-2 > div.content.container > div.fp-slides > div > div.row:first-of-type {
+		margin-top: 40px;
+	}
+	#features-h1 {
+		margin-bottom: 40px;
+	}
+	#sec4-h2 {
+		padding-bottom: 10px;
+		margin-bottom: 50px;
+		margin-top: 0px;
+	}
+	.sec4-faq > h3 {
+		margin-top: 5px;
+	}
+	.sec4-faq > pre {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.sec3-p {
+		margin-top: 1%;
+	}
+}
+
+/* Big screens 16"+ */
+@media (min-width: 1500px) {
+	.sec3-p {
+		margin-top: 5%;
+	}
+} 
